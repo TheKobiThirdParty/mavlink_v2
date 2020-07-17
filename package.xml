@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mavlink_v2</name>
+  <version>2019.10.18</version>
+  <description>MAVLink message marshaling library.
+  This package provides C++11 library for the
+  version 2.0 of protocol.
+
+  For pymavlink use separate install via rosdep (python-pymavlink).
+  </description>
+
+  <maintainer email="vooon341@gmail.com">Vladimir Ermakov</maintainer>
+
+  <url type="website">https://mavlink.io/en/</url>
+  <url type="repository">https://github.com/mavlink/mavlink.git</url>
+  <url type="bugtracker">https://github.com/mavlink/mavlink/issues</url>
+
+  <author>Lorenz Meier</author>
+  <license>LGPLv3</license>
+
+  <build_depend>catkin</build_depend>
+
+</package>
+
